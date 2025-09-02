@@ -1,0 +1,18 @@
+[versions]
+# Plugins
+loom = "1.11-SNAPSHOT"
+blossom = "2.1.0"
+versioning = "3.1.0"
+
+# Libraries
+fabricLoader = "0.17.2"
+fabricApi = "0.116.6+1.21.1"
+
+[libraries]
+fabricLoader = { group = "net.fabricmc", name = "fabric-loader", version.ref = "fabricLoader" }
+fabricApi = { group = "net.fabricmc.fabric-api", name = "fabric-api", version.ref = "fabricApi" }
+
+[plugins]
+loom = { id = "fabric-loom", version.ref = "loom" }
+blossom = { id = "net.kyori.blossom", version.ref = "blossom" }
+versioning = { id = "net.nemerosa.versioning", version.ref = "versioning" }

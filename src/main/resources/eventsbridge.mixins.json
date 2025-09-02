@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "io.github.morapowered.eventsbridge.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "server": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "eventsbridge",
+  "version": "${version}",
+  "name": "EventsBridge",
+  "authors": [
+    "Pedro Souza"
+  ],
+  "contact": {
+    "sources": "https://github.com/morapowered/EventsBridge"
+  },
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "io.github.morapowered.eventsbridge.EventsBridgeMod"
+    ]
+  },
+  "mixins": [
+    "eventsbridge.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
