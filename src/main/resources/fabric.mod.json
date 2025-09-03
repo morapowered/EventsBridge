@@ -12,7 +12,7 @@
   "environment": "server",
   "entrypoints": {
     "main": [
-      "io.github.morapowered.eventsbridge.EventsBridgeMod"
+      "io.github.morapowered.eventsbridge.EventsBridgeEntrypoint::entrypoint"
     ]
   },
   "mixins": [
